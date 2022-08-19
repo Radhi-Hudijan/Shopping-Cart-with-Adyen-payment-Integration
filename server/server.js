@@ -47,7 +47,7 @@ app.post("/api/sessions", async (req, res) => {
   }
 });
 
-// the webhook notification is not configured in the customer area because the HMAC key is not provided
+// I left the webhook notification  out of scope because the HMAC key is not provided
 
 // Receive webhook notifications
 app.post("/notification", async (req, res) => {
@@ -66,6 +66,7 @@ app.post("/notification", async (req, res) => {
 
         if (eventCode === "AUTHORISATION") {
           if (item.NotificationRequestItem.success === "true") {
+            //I left this part out of scope because
             //payment was successful
           } else {
             //payment was refused

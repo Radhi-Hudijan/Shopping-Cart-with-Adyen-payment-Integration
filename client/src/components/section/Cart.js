@@ -6,11 +6,11 @@ import "../css/Details.css";
 import "../css/Cart.css";
 
 const Cart = () => {
-  const { cart, increase, reduction, removeProduct, total, getTotal } =
+  const { cart, increase, reduction, removeProduct, total, updateTotal } =
     useContext(DataContext);
 
   useEffect(() => {
-    getTotal();
+    updateTotal();
   });
 
   if (cart.length === 0) {

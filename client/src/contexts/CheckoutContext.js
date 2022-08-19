@@ -52,7 +52,6 @@ export const CheckoutProvider = ({ children }) => {
 
   return (
     <CheckoutContext.Provider value={{ callServer, createAdyenCheckout }}>
-      {" "}
       {children}
     </CheckoutContext.Provider>
   );
