@@ -15,6 +15,25 @@
   width: 50%;
 }
 
+/* Customizing styling of Drop-in */
+.dropin-container .adyen-checkout__payment-method--selected {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.dropin-container .adyen-checkout__button.adyen-checkout__button--pay {
+  background-color: #333;
+}
+
+.dropin-container .adyen-checkout__payment-method__radio--selected {
+  background-color: #333;
+}
+
+.dropin-container .adyen-checkout__payment-method__radio--selected:hover {
+  box-shadow: 0 0 0 2px #333;
+}
+
 @media screen and (max-width: 1076px) {
   #payment-page {
     display: flex;

@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useRef } from "react";
 import "@adyen/adyen-web/dist/adyen.css";
+import "../../App.css";
 
 import { CheckoutContext } from "../../contexts/CheckoutContext";
 import { DataContext } from "../../contexts/DataContext";
