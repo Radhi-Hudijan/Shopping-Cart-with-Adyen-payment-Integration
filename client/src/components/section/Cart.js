@@ -24,7 +24,7 @@ const Cart = () => {
             <div className="box">
               <div className="row">
                 <h2>{item.title}</h2>
-                <span>${item.price * item.count}</span>
+                <span>€{item.price * item.count}</span>
               </div>
               <Colors colors={item.colors} />
               <p>{item.description}</p>
@@ -48,7 +48,7 @@ const Cart = () => {
         ))}
         <div className="total">
           <Link to="/checkout">Payment</Link>
-          <h3>Total: ${total}</h3>
+          <h3>Total: €{total}</h3>
         </div>
       </>
     );
