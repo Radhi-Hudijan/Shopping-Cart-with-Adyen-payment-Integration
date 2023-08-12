@@ -86,7 +86,7 @@ app.post("/api/sessions", async (req, res) => {
 /* ################# END OF API ENDPOINTS ####################### */
 
 //start server
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`Server started on ${PORT}`);
 });
