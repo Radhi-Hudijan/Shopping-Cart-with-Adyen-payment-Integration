@@ -1,0 +1,21 @@
+{
+  "name": "Shopping-Cart-with-Adyen-payment-Integration",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "cyclic start",
+    "build": "cyclic build",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radhi-Hudijan/Shopping-Cart-with-Adyen-payment-Integration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Radhi-Hudijan/Shopping-Cart-with-Adyen-payment-Integration/issues"
+  },
+  "homepage": "https://github.com/Radhi-Hudijan/Shopping-Cart-with-Adyen-payment-Integration#readme"
+}
